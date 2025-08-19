@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meine erste Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Willkommen auf meiner Website</h1>
+    <p>Meine allererste eigene Seite 🎉</p>
+  </header>
+
+  <nav>
+    <a href="#about">Über mich</a>
+    <a href="#projects">Projekte</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>Über mich</h2>
+      <p>Hallo! Ich bin [Dein Name]. Das ist meine erste eigene Website.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projekte</h2>
+      <ul>
+        <li>Projekt 1 – Mein Blog</li>
+        <li>Projekt 2 – Fotoalbum</li>
+        <li>Projekt 3 – Lernnotizen</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>Du kannst mich unter <a href="mailto:deine.email@beispiel.de">deine.email@beispiel.de</a> erreichen.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Meine Website</p>
+  </footer>
+</body>
+</html>
